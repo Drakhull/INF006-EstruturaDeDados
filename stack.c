@@ -20,7 +20,7 @@ node* push(node *n) {
     newNode->down = n;
     return newNode;
   }
-  else printf("Memory Error.");
+  else printf("\nMemory Error.\n");
   return NULL;
 }
 
